@@ -1,7 +1,7 @@
-object fCalculadora: TfCalculadora
+object Form1: TForm1
   Left = 0
   Top = 0
-  Caption = 'Calculadora'
+  Caption = 'Form1'
   ClientHeight = 278
   ClientWidth = 415
   Color = clBtnFace
@@ -46,27 +46,24 @@ object fCalculadora: TfCalculadora
     Top = 48
     Width = 121
     Height = 21
-    Alignment = taRightJustify
     TabOrder = 0
-    TextHint = '0'
+    Text = '0'
   end
   object edtVlr2: TEdit
     Left = 48
     Top = 104
     Width = 121
     Height = 21
-    Alignment = taRightJustify
     TabOrder = 1
-    TextHint = '0'
+    Text = '0'
   end
   object edtResultado: TEdit
     Left = 48
     Top = 240
     Width = 121
     Height = 21
-    Alignment = taRightJustify
     TabOrder = 2
-    TextHint = '0'
+    Text = 'edtResultado'
   end
   object btSoma: TButton
     Left = 48
